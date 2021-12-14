@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'hola'
+  s.name        = 'eduardo-test-gem'
   s.version     = '0.0.0'
   s.summary     = "Hola!"
   s.description = "A simple hello world gem"
@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://rubygems.org/gems/hola'
   s.license       = 'MIT'
+
+  spec.add_development_dependency('rake', '~> 13')
 end
